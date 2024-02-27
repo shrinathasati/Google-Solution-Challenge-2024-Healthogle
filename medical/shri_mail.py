@@ -5,7 +5,7 @@ from email.message import EmailMessage
 # Define email sender and receiver
 email_sender = 'YOUR_EMAIL'
 email_password = 'YOUR_PASSWORD'
-email_receiver = 'RECEIVER_MAIL'
+email_receiver = 'RECEIVER_MAIL_ID'
 
 # Set the subject and body of the email
 subject = 'Check out my new video!'
