@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Upload</title>
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"> -->
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+    
+        h1 {
+            color: #0e0202;
+        }
+    
+        form {
+            margin-top: 20px;
+        }
+    
+        input[type="file"] {
+            display: inline-block;
+            margin-right: 10px; /* Add some spacing between file input and button */
+        }
+    
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+        input[type="file"] + button {
+            background-color: #333;
+        }
+    
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Career Mantri</h1>
+    <h1>Upload Resume</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="resume" accept=".pdf" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
