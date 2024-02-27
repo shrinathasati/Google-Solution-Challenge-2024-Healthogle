@@ -3,9 +3,9 @@ import ssl
 from email.message import EmailMessage
 
 # Define email sender and receiver
-email_sender = 'shrinathasati111@gmail.com'
-email_password = 'cjpckurntedbcpcx'
-email_receiver = 'shrinath25ai054@satiengg.in'
+email_sender = 'YOUR_EMAIL'
+email_password = 'YOUR_PASSWORD'
+email_receiver = 'RECEIVER_MAIL'
 
 # Set the subject and body of the email
 subject = 'Check out my new video!'
